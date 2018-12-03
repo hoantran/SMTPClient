@@ -1,14 +1,8 @@
-//
-//  main.c
-//  SMTP
-//
-//  Created by Hoan Tran on 12/2/18.
-//  Copyright © 2018 Hoan Tran. All rights reserved.
-//
-
 #include <stdio.h>
+#include <stdlib.h>
 
-int main(int argc, const char * argv[]) {
-  printf("Hello, SMTP!\n");
-  return 0;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	return 0;
 }
