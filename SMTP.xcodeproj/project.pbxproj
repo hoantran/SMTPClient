@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3B47ED6B21B4C22B00D2F9EE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B47ED6A21B4C22B00D2F9EE /* main.c */; };
+		3B47ED7321B4C6D500D2F9EE /* SMTPManager.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B47ED7221B4C6D500D2F9EE /* SMTPManager.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		3B47ED6721B4C22B00D2F9EE /* SMTP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SMTP; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B47ED6A21B4C22B00D2F9EE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3B47ED7121B4C42200D2F9EE /* SMTPManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMTPManager.h; sourceTree = "<group>"; };
+		3B47ED7221B4C6D500D2F9EE /* SMTPManager.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SMTPManager.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				3B47ED6A21B4C22B00D2F9EE /* main.c */,
+				3B47ED7121B4C42200D2F9EE /* SMTPManager.h */,
+				3B47ED7221B4C6D500D2F9EE /* SMTPManager.c */,
 			);
 			path = SMTP;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B47ED6B21B4C22B00D2F9EE /* main.c in Sources */,
+				3B47ED7321B4C6D500D2F9EE /* SMTPManager.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
