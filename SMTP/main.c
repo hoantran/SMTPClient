@@ -7,8 +7,11 @@
 //
 
 #include <stdio.h>
+#include "SMTPManager.h"
 
 int main(int argc, const char * argv[]) {
   printf("Hello, SMTP!\n");
+  struct SMTPClient *ptr = createSMTPClient();
+  printf("Socket #%d \n", ptr->sd);
   return 0;
 }
