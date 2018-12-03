@@ -1,3 +1,4 @@
 *.win
 *.exe
 *.dev
+.DS_Store
